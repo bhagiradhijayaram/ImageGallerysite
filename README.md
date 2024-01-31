@@ -13,6 +13,15 @@ Filtering and Sorting: Allow users to filter and sort images based on categories
 
 Thumbnail Previews: Provide a quick overview of images with thumbnail previews.
 
-Clone this repository: git clone 
+Clone this repository: git clone https://github.com/bhagiradhijayaram/ImageGallerysite.git
+
+LIVE PREVIEW:
+
+![Screenshot (171)](https://github.com/bhagiradhijayaram/ImageGallerysite/assets/116064700/b1065c23-86ae-4f3c-95d5-ae38fb6f44c7)
+
+LIVE DEMO: 
+
+https://imagegallerysite.netlify.app/
+
 
 
