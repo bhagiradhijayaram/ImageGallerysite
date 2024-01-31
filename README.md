@@ -12,3 +12,7 @@ Customizable: Easily modify the gallery layout, styles, and transition effects t
 Filtering and Sorting: Allow users to filter and sort images based on categories or tags.
 
 Thumbnail Previews: Provide a quick overview of images with thumbnail previews.
+
+Clone this repository: git clone 
+
+
