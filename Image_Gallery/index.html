@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link href="assets/Images/wallpapers/logo.jpg" rel="icon">
+    <link rel="stylesheet" href="style.css">
+     <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">    
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <header id="nav-menu" aria-label="navigation bar">
+        <div class="container">
+          <div class="nav-start">
+            <a class="logo" href="#">
+              <img
+                src="/assets/images/wallpapers/logo.jpg"
+                width="35"
+                height="35"
+                alt="Logo"
+              />
+            </a>
+            <nav class="menu">
+              <ul class="menu-bar">
+                <li>
+                  <button
+                    class="nav-link dropdown-btn"
+                    data-dropdown="dropdown1"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    aria-label="browse"
+                  >
+                  Image Gallery
+                    <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                  </button>
+                  <div id="dropdown1" class="dropdown">
+                    <ul role="menu">
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="Anime_page.html">
+                          <img src="./assets/Images/wallpapers/Anime_image1.jpg"  width="40px" height="40px"  class="icon" />
+                          <div>
+                            <span class="dropdown-link-title"
+                              >Anime Images</span
+                            >
+                            <p>Images/Logos/Templates</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="#">
+                          <img src="./assets/Images/wallpapers/Web.png" width="40px" height="40px"   class="icon" />
+                          <div>
+                            <span class="dropdown-link-title"
+                              >Web Development Images</span
+                            >
+                            <p>Images/Logos/Templates</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="#">
+                          <img src="./assets/Images/wallpapers/Bike1.jpg" width="40px" height="40px"  class="icon" />
+                          <div>
+                            <span class="dropdown-link-title">Bike Images</span>
+                            <p>Images/Logos/Templates</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="#creative-feed">
+                          <img src="./assets/Images/wallpapers/img4.jpg" width="40px" height="40px" class="icon" />
+                          <div>
+                            <span class="dropdown-link-title">Waterfalls Images</span>
+                            <p>Images/Logos/Templates</p>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a class="nav-link" href="#">Templates</a></li>
+                <li><a class="nav-link" href="#">Upgrading</a></li>
+                <li><a class="nav-link" href="#">About</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="nav-end">
+            <div class="right-container">
+              <form class="search" role="search">
+                <input type="search" name="search" placeholder="Search" />
+                <i class="bx bx-search" aria-hidden="true"></i>
+              </form>
+  
+              <a href="#profile">
+                <img
+                  src="/assets/images/wallpapers/Profile_logo.jpg"
+                  width="45"
+                  height="45"
+                  alt="Profile image"
+                />
+              </a>
+              <button class="btn btn-primary">Create</button>
+            </div>
+  
+            <button
+              id="hamburger"
+              aria-label="hamburger"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="bx bx-menu" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+    <h1>Interactive Image Gallery</h1>
+    <div class="gallery">
+        <div>
+        <img src="assets/Images/wallpapers/img1.jpg" alt="">
+        </div>
+        <div class="v_image">
+            <img src="assets/Images/wallpapers/img2.jpg" alt="">
+        </div>
+        <div class="h_image">
+            <img src="assets/Images/wallpapers/img3.jpg" alt="">
+        </div>
+        <div>
+            <img src="assets/Images/wallpapers/img4.jpg" alt="">
+        </div>
+        <div>
+            <img src="assets/Images/wallpapers/img5.jpg" alt="">
+        </div>
+
+        <div class="v_image">
+            <img src="assets/Images/wallpapers/img6.jpg" alt="">
+        </div>
+        <div class="big_image">
+            <img src="assets/Images/wallpapers/img7.jpg" alt="">
+        </div>
+        <div>
+            <img src="assets/Images/wallpapers/img8.jpg" alt="">
+        </div>
+        <div class="h_image">
+            <img src="assets/Images/wallpapers/img9.jpg" alt="">
+        </div>
+        <div>
+            <img src="assets/Images/wallpapers/img11.jpg" alt="">
+        </div>
+        <div>
+            <img src="assets/Images/wallpapers/img12.jpg" alt="">
+        </div>
+         <div>
+            <img src="assets/Images/wallpapers/img13.jpg" alt="">
+        </div>
+        <div class="v_image">
+            <img src="assets/Images/wallpapers/img14.jpg" alt="">
+        </div>
+        <div>
+            <img src="assets/Images/wallpapers/img15.jpg" alt="">
+        </div>
+        <div class="big_image">
+            <img src="assets/Images/wallpapers/img16.jpg" alt="">
+        </div>
+        <div>
+            <img src="assets/Images/wallpapers/img17.jpg" alt="">
+        </div>
+        <div class="h_image">
+            <img src="assets/Images/wallpapers/img18.jpg" alt="">
+        </div>
+        <div>
+            <img src="assets/Images/wallpapers/img19.jpg" alt="">
+        </div>
+        <div class="big_image">
+            <img src="assets/Images/wallpapers/img20.jpg" alt="">
+        </div>
+        <div>
+            <img src="assets/Images/wallpapers/img21.jpg" alt="">
+        </div>
+        <div>
+            <img src="assets/Images/wallpapers/img22.jpg" alt="">
+        </div>
+        <div class="h_image">
+            <img src="assets/Images/wallpapers/img23.jpg" alt="">
+        </div>
+        <div>
+            <img src="assets/Images/wallpapers/img24.jpg" alt="">
+        </div>
+        <div class="big_image">
+            <img src="assets/Images/wallpapers/img25.jpg" alt="">
+        </div>
+        <div>
+            <img src="assets/Images/wallpapers/img26.jpg" alt="">
+        </div>
+        <div class="big_image">
+            <img src="assets/Images/wallpapers/img27.jpg" alt="">
+        </div>
+    </div>
+            <footer>
+                <div class="footer">
+                <div class="row">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
+
+                <div class="row">
+                    <ul>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Career</a></li>
+                    </ul>
+                </div>
+
+                <div class="row">   
+                    <p>Bhagiradhija Copyright © 2024 - All rights reserved || Designed By: Jayaram</p> 
+                </div>
+                </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
